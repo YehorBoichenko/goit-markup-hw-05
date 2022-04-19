@@ -389,7 +389,7 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   height: 44px;
   border-radius: 50%;
   color: #AFB1B8;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list .socialmedias-item:not(:last-child){
@@ -429,7 +429,7 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   color: #AFB1B8;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -477,6 +477,7 @@ border: 1px solid var(--accent-color);
   font-style: normal;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-design {
@@ -495,6 +496,7 @@ border: 1px solid var(--accent-color);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-list>.item:not(:last-child) {
