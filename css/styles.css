@@ -545,8 +545,8 @@ border: 1px solid var(--accent-color);
 }
 
 .modal{
-  height: 528px;
-  width: 581px;
+  height: 581px;
+  width: 528px;
   position: absolute;
   top: 50%;
   left: 50%;
