@@ -389,7 +389,7 @@ ul,ol,li,p,h1,h2,h3,h4,h5,h6{
   height: 44px;
   border-radius: 50%;
   color: #AFB1B8;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list .socialmedias-item:not(:last-child){
